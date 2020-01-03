@@ -86,28 +86,29 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html {
-  background-color: #fff;
+  background-color: #505050;
   height: 100%;
   width: 100%;
+  font-size: 32px;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
   color: #fff;
 }
 
 header,
 footer {
-  background-color: #222;
-  height: 80px;
+  background-color: #505050;
+  height: 150px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
+  background-color: #505050;
   height: 250px;
   width: 100%;
 }
@@ -121,6 +122,10 @@ main {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
 }
 
+header {
+  font-family: 'Pacifico', cursive;
+}
+
 #div-1,
 #div-2,
 #div-3 {
@@ -129,7 +134,7 @@ main {
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em;
+  font-size: .75em;
   height: auto;
 }
 
@@ -149,15 +154,31 @@ main {
 
 .flex-items {
   /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
-  color: #fff;
+  color: silver;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #505050;
   width: 30%;
   height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#div-1 {
+  border-right: 1px solid silver;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
+}
+
+#div-2 {
+  border-right: 1px solid silver;
+  padding-right: 1.5em;
+  height: inherit;
+}
+
+#div-3 {
+  padding-bottom: 1.5em;
 }
 
 /* ==========================================================================
